@@ -1,0 +1,19 @@
+// ABSTRACTS
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
+
+// BASE
+@use 'base/reset';
+@use 'base/typography';
+
+// COMPONENTS
+@use 'components/header';
+@use 'components/footer';
+@use 'components/buttons';
+
+// LAYOUT
+@use 'layout/home';
+@use 'layout/equipo';
+@use 'layout/contacto';
+@use 'layout/instalaciones';
+@use 'layout/mapas';
